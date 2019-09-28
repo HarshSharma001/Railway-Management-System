@@ -1,0 +1,27 @@
+create table register(Name varchar(30), LastName varchar(20), Email varchar(30), Phone varchar(10), Address varchar(30), Aaddhar_No varchar(20), DD varchar(10), MM varchar(10), YY varchar(10), Gender varchar(30), Username varchar(30), Password varchar(30), Confirm varchar(30));
+
+
+
+create table journey(Username varchar(30), PNR_NO varchar(5), From_Station varchar(50), To_Station varchar(50), DD varchar(20), MM varchar(20), YY varchar(20), Ticket_Type varchar(30));
+
+
+
+create table payment(Card_No varchar(30), Card_Pin varchar(20), CVV_No varchar(3), Total_Amount varchar(30));
+
+
+
+
+create table train(Name varchar(50), Train_No varchar(20), Start_Time varchar(10), End_Time varchar(10), Start_Station varchar(50), End_Station varchar(50));
+
+
+
+create table trains(Train_No varchar(20), Train_Fare varchar(10));
+
+
+
+create table details1(Name varchar(30), Password varchar(30));
+
+insert into details1 values('Harsh','example');
+
+
+
